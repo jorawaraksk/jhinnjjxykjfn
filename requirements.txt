@@ -1,16 +1,19 @@
 # --- Core Telegram Libraries ---
-# Using 13.x to maintain compatibility with the bot's legacy logic
 python-telegram-bot==13.15
 telethon==1.36.0
 pyrogram==2.0.106
 tgcrypto==1.2.5
 
-# --- API & Media Services ---
-# Fixes the 'html_telegraph_poster' error
+# --- Telegraph & HTML Cleaning (Crucial Fix) ---
 html-telegraph-poster==0.3.1
+lxml==5.1.0
+lxml_html_clean==0.1.0
+
+# --- Media Processing ---
 ffmpeg-python==0.2.0
 hachoir==3.3.0
 speedtest-cli==2.1.3
+Pillow==10.2.0
 
 # --- System & Networking ---
 requests==2.31.0
@@ -18,7 +21,3 @@ aiohttp==3.9.3
 python-dotenv==1.0.1
 psutil==5.9.8
 urllib3==2.2.1
-asyncio==3.4.3
-
-# --- Fonts & Styling (for video watermarks/thumbs) ---
-Pillow==10.2.0
