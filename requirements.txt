@@ -1,15 +1,18 @@
-# Main Frameworks
+# --- Core Frameworks ---
 python-telegram-bot==13.15
 telethon==1.36.0
 pyrogram==2.0.106
 tgcrypto
 
-# Telegraph & HTML (The problematic ones)
+# --- Configuration (Fixes the current error) ---
+python-decouple
+
+# --- Telegraph & HTML Cleaning ---
 html-telegraph-poster
 lxml
 lxml_html_clean
 
-# Media & System
+# --- Media & System ---
 ffmpeg-python
 hachoir
 speedtest-cli
@@ -18,3 +21,4 @@ requests
 aiohttp
 python-dotenv
 psutil
+pyaesni
