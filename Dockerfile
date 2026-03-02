@@ -27,4 +27,4 @@ COPY . .
 
 # Start the bot
 # Note: Ensure your main file is actually named 'bot.py' or in a folder named 'bot'
-CMD ["python3", "-m", "bot"]
+CMD ["python3", "bot.py"]
