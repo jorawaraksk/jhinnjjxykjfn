@@ -1,23 +1,20 @@
-# --- Core Telegram Libraries ---
+# Main Frameworks
 python-telegram-bot==13.15
 telethon==1.36.0
 pyrogram==2.0.106
-tgcrypto==1.2.5
+tgcrypto
 
-# --- Telegraph & HTML Cleaning (Crucial Fix) ---
-html-telegraph-poster==0.3.1
-lxml==5.1.0
-lxml_html_clean==0.1.0
+# Telegraph & HTML (The problematic ones)
+html-telegraph-poster
+lxml
+lxml_html_clean
 
-# --- Media Processing ---
-ffmpeg-python==0.2.0
-hachoir==3.3.0
-speedtest-cli==2.1.3
-Pillow==10.2.0
-
-# --- System & Networking ---
-requests==2.31.0
-aiohttp==3.9.3
-python-dotenv==1.0.1
-psutil==5.9.8
-urllib3==2.2.1
+# Media & System
+ffmpeg-python
+hachoir
+speedtest-cli
+Pillow
+requests
+aiohttp
+python-dotenv
+psutil
