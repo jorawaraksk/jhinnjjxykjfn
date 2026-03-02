@@ -1,17 +1,24 @@
-# Core Bot Libraries
+# --- Core Telegram Libraries ---
+# Using 13.x to maintain compatibility with the bot's legacy logic
 python-telegram-bot==13.15
 telethon==1.36.0
-hachoir==3.3.0
-
-# API and Requests
-requests==2.31.0
-aiohttp==3.9.3
-
-# Media and Progress
-ffmpeg-python==0.2.0
-Pyrogram==2.0.106
+pyrogram==2.0.106
 tgcrypto==1.2.5
 
-# Utilities
+# --- API & Media Services ---
+# Fixes the 'html_telegraph_poster' error
+html-telegraph-poster==0.3.1
+ffmpeg-python==0.2.0
+hachoir==3.3.0
+speedtest-cli==2.1.3
+
+# --- System & Networking ---
+requests==2.31.0
+aiohttp==3.9.3
 python-dotenv==1.0.1
 psutil==5.9.8
+urllib3==2.2.1
+asyncio==3.4.3
+
+# --- Fonts & Styling (for video watermarks/thumbs) ---
+Pillow==10.2.0
